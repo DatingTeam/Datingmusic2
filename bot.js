@@ -47,7 +47,7 @@ client.user.setGame(`By Luca Changretta |,help`,"http://twitch.tv/S-F")
 
 
 const developers = ["412302921972056066","487314985362391060"]
-const adminprefix = ";";
+const adminprefix = ",";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
